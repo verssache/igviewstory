@@ -1,2 +1,27 @@
 # Instagram Auto View Story
-Script auto view instagram story based on target followers
+Instagram Auto View Story is an automation tool to view thousands of stories with in minutes without getting action block. 
+
+## Features
+- View Stories
+  
+## Uses 
+- Increasing profile visits and followers
+   
+## Installation
+
+Requires at least Python version 3+ to run.
+
+Turn off Two-factor authentication (2FA).
+
+```
+$ git clone https://github.com/verssache/igviewstory/
+$ cd igviewstory
+$ py login.py
+$ py run.py
+```
+
+## Credits
+Author credits : nthanfp
+Modified by mohsanjid ([Repository](https://github.com/sanjidtk/masslooker))
+Remodified by gvoze32 ([Repository](https://github.com/gvoze32/massseen/))
+Python version by verssache ([Repository](https://github.com/gvoze32/igviewstory/))

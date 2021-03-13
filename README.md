@@ -22,6 +22,5 @@ $ py run.py
 
 ## Credits
 Author credits : nthanfp
-Modified by mohsanjid ([Repository](https://github.com/sanjidtk/masslooker))
-Remodified by gvoze32 ([Repository](https://github.com/gvoze32/massseen/))
+
 Python version by verssache ([Repository](https://github.com/gvoze32/igviewstory/))

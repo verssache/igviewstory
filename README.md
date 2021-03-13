@@ -22,5 +22,3 @@ $ py run.py
 
 ## Credits
 Author credits : nthanfp
-
-Python version by verssache ([Repository](https://github.com/gvoze32/igviewstory/))

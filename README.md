@@ -16,6 +16,7 @@ Turn off Two-factor authentication (2FA).
 ```
 $ git clone https://github.com/verssache/igviewstory/
 $ cd igviewstory
+$ pip install -r requirements.txt
 $ py login.py
 $ py run.py
 ```

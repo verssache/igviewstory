@@ -21,5 +21,8 @@ $ py login.py
 $ py run.py
 ```
 
+## Note
+DWYOR ((Do With Your Own Risk)
+
 ## Credits
 Author credits : nthanfp

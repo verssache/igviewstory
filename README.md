@@ -22,7 +22,7 @@ $ py run.py
 ```
 
 ## Note
-DWYOR ((Do With Your Own Risk)
+DWYOR (Do With Your Own Risk)
 
 ## Credits
 Author credits : nthanfp

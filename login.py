@@ -3,7 +3,7 @@ from library import config
 print("[+] Instagram View Story - By: GidhanB.A\n")
 
 userig = input("[+] Input your instagram username: ")
-passig = input("[+] Input your instagram password: ")
+passig = config.igfunc.getpass.getpass("[+] Input your instagram password: ")
 
 useragent = config.igfunc.generate_useragent()
 device_id = config.igfunc.generate_device_id()

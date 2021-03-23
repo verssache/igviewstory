@@ -14,11 +14,11 @@ Requires at least Python version 3+ to run.
 Turn off Two-factor authentication (2FA).
 
 ```
-$ git clone https://github.com/verssache/igviewstory/
+$ git clone https://github.com/verssache/igviewstory
 $ cd igviewstory
-$ pip install -r requirements.txt
-$ py login.py
-$ py run.py
+$ pip3 install -r requirements.txt
+$ python3 login.py
+$ python3 run.py
 ```
 
 ## Note

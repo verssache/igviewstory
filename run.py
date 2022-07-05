@@ -38,9 +38,9 @@ if cookie:
                             req = config.igfunc.json.loads(config.igfunc.get_request(1,useragent,'friendships/'+str(targetid)+'/followers/'+parameters,cookie).text)
                             if req["status"] != "ok":
                                 print(config.igfunc.json.dumps(req, indent=4, sort_keys=True))
-                            for i in range(len(req["users"])):
-                                if req["users"][i]["is_private"] == False and req["users"][i]["latest_reel_media"] and len(listid) <= limit:
-                                    listid.append(req["users"][i]["pk"])
+                            for i, item in enumerate(req["users"]):
+                                if item["is_private"] == False and item["latest_reel_media"] and len(listid) <= limit:
+                                    listid.append(item["pk"])
                             if req["next_max_id"]:
                                 gas = True
                                 gas_id = req["next_max_id"]
@@ -52,8 +52,8 @@ if cookie:
                         print("[+] Total {} followers of @{} collected\n".format(len(listid),target))
                         reels = []
                         reels_suc = []
-                        for i in range(len(listid)):
-                            getstory = config.igfunc.json.loads(config.igfunc.get_request(1,useragent,'feed/user/'+str(listid[i])+'/story/',cookie).text)
+                        for i, item in enumerate(listid):
+                            getstory = config.igfunc.json.loads(config.igfunc.get_request(1,useragent,'feed/user/'+str(item)+'/story/',cookie).text)
                             for storyitem in getstory["reel"]["items"]:
                                 sleep_1 = config.igfunc.random.randint(1,10) # Jeda per view story
                                 sleep_2 = config.igfunc.random.randint(15,45) # Jeda per view story 1 akun user
